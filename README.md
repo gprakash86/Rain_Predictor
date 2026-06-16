@@ -1,5 +1,5 @@
 # Rain Predictor Project
-A machine learning project that predicts whether it will rain tomorrow using meterological data from WeatherAUS dataset from Kaggle.
+A machine learning project that predicts whether it will rain tomorrow using meteorological data from weatherAUS dataset from Kaggle.
 ## Features Used
 - Minimum Temperature
 - Maximum Temperature
@@ -17,9 +17,9 @@ A machine learning project that predicts whether it will rain tomorrow using met
 - Pressure at 3pm
 ## Data Preprocessing
 - Removed missing values.
-- Converted rain tomorrow lables from Yes/No to 1/0
+- Converted rain tomorrow labels from Yes/No to 1/0
 - Split data into training and testing sets.
-- Used StandardScalar for Logistic Regression.
+- Used StandardScaler for Logistic Regression.
 ## Models used
 - Decision Tree
 - Logical Regression
@@ -42,11 +42,11 @@ Random Forest achieved the highest accuracy and is selected as the final model.
 - Joblib
 ## How to run
 1. Install the required libraries
-   ``` python
+   ``` bash
        pip install -r requirements.txt
    ```
 2. Download weatherAUS dataset from Kaggle.
 3. Run
-   ``` python
+   ``` bash
        python randomforest.py
    ```
