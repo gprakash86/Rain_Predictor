@@ -35,8 +35,7 @@ Random Forest achieved the highest accuracy and is selected as the final model.
 ## Factors that highly influence the rainfall
 - Humidity at 3pm (0.168)
 - Sunshine (0.123)
-## Technologies used
-- Python
+## Libraries used
 - Pandas
 - Scikit-learn
 - Joblib
