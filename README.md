@@ -45,7 +45,7 @@ Random Forest achieved the highest accuracy and is selected as the final model.
    ``` python
        pip install -r requirements.txt
    ```
-2. Download WeatherAUS dataset from Kaggle.
+2. Download weatherAUS dataset from Kaggle.
 3. Run
    ``` python
        python randomforest.py
